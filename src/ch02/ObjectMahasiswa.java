@@ -6,7 +6,7 @@ public class ObjectMahasiswa {
         Mahasiswa mhs = new Mahasiswa();
         mhs.nim = "10201";
         mhs.nama = "Andi";
-        mhs.alamat = "JL. Sudirman No.123";
+        mhs.alamat = "JL. Sudirman No.123"; 
         mhs.hp = "081234567890";
         mhs.cetak();
     }

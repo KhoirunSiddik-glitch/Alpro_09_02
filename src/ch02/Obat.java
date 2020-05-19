@@ -7,7 +7,7 @@ public class Obat {
     String barcode;
     String nama;
     Date tanggalKedaluarsa;
-    double harga;
+    String harga;
     
     public String getBarcode() {
         return nama;
@@ -16,7 +16,7 @@ public class Obat {
         return tanggalKedaluarsa;
     }
     
-    public double getHarga() {
+    public String getHarga() {
         return harga;
     }
 }
