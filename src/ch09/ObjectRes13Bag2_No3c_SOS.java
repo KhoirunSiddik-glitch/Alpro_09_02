@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ObjectRes13Bag2_No3c_SOS {
     public static void main(String[] args) {
-        Res13Bag2_No3c_SOS obj = new Res13Bag2_No3c_SOS();
+        Res13Bag2_No3c_SOS object = new Res13Bag2_No3c_SOS();
         System.out.println("Program dari Sieve Of Sundaram ");
         System.out.println();
         
@@ -12,6 +12,6 @@ public class ObjectRes13Bag2_No3c_SOS {
         System.out.println(" Input bilangan = ");
         int bil = in.nextInt();
         System.out.println(" Bilangan Prima yang kecil dari " +bil+ " = " );
-        obj.SieveOfSundaram(bil);
+        object.SieveOfSundaram(bil);
     }
 }
